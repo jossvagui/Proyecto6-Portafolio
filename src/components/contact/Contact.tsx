@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@chakra-ui/react";
 import { GrLocation } from "react-icons/gr";
 import { MdOutlineEmail } from "react-icons/md";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
 import { BsTelegram, BsGlobe2 } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaDiscord } from "react-icons/fa";
@@ -18,40 +18,29 @@ export type Contact = {
 
 export const contacts: Contact[] = [
   {
-    name: "EMAIL:",
-    info: "contactme@tijan.dev",
+    name: "Email:",
+    info: "joss.vagui@gmail.com",
     icon: <MdOutlineEmail className="contact-icon" />,
-    url: "mailto:contactme@tijan.dev",
+    url: "mailto:joss.vagui@gmail.com",
   },
   {
-    name: "TWITTER:",
-    info: "@0xTijan",
-    icon: <AiFillTwitterCircle className="contact-icon" />,
-    url: "https://twitter.com/0xTijan",
+    name: "LinkedIn:",
+    info: "@JosueVagui",
+    icon: <AiFillLinkedin className="contact-icon" />,
+    url: "https://www.linkedin.com/in/josuevagui/",
   },
-  {
-    name: "TELEGRAM:",
-    info: "@TijanWeb3",
-    icon: <BsTelegram className="contact-icon" />,
-    url: "https://t.me/TijanWeb3",
-  },
-  {
-    name: "DISCORD:",
-    info: "Tijan#6804",
-    icon: <FaDiscord className="contact-icon" />,
-    url: "https://discord.com/users/775249998379614238",
-  },
+  
   {
     name: "GitHub:",
-    info: "@0xTijan",
+    info: "@jossvagui",
     icon: <AiFillGithub className="contact-icon" />,
-    url: "https://github.com/0xTijan",
+    url: "https://github.com/jossvagui",
   },
   {
-    name: "LOCATION & ZONE:",
-    info: "Slovenia, UTC+1",
+    name: "Ubicación:",
+    info: "Chiapas, México",
     icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/slovenia",
+    url: "https://www.timeanddate.com/worldclock/mexico/chiapas",
   },
 ];
 
@@ -59,8 +48,8 @@ const Contact = () => {
   return(
     <div className="bg-contact">
       <div className="contact-header">
-        <p className="heading">Contacte Me</p>
-        <p className="text">If you have any questions or want to hire me, please contact me:</p>
+        <p className="heading">Contáctame</p>
+        <p className="text">Si tienes alguna duda o quieres ponerte en contacto conmigo, me encuentras en:</p>
       </div>
 
       <div className="contact-grid">
@@ -80,9 +69,9 @@ const Contact = () => {
       </div>
 
       <div className="button-container">
-        <a href="mailto:contactme@tijan.dev">
+        <a href="mailto:joss.vagui@gmail.com">
           <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid' className="contact-btn">
-            Contact Me
+            Envíame un correo
           </Button>
         </a>
       </div>

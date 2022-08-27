@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Heading, Text, Button, CloseButton } from '@chakra-ui/react';
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
 import { BsTelegram, BsChevronDown } from "react-icons/bs";
 import { FaDiscord  } from "react-icons/fa";
 import avatar from "./../../images/hi.png";
@@ -26,7 +26,7 @@ const About = () => {
     return "lg";
   }
 
-  const Alert = () => {
+  /*const Alert = () => {
     if(isVisible) {
       return(
         <div className="alert">
@@ -37,46 +37,43 @@ const About = () => {
     }else{
       return null
     }
-  }
+  }*/
 
   return(
     <>
-    <Alert />
+    
     <div className="bg">
       <div className="about-wrapper">
         <div className="about-text">
           <div className="about-title">
             <Heading as='h1' fontSize={getFontSize()} size='4xl'>
-              Hi! 👋
+              Hola! 👋
             </Heading>
             <Heading as='h1' fontSize={getFontSize()} size='4xl'>
-              I'm <span className="name">Tijan</span>
+              Soy <span className="name">Josué</span>
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>passionate <span className="name">BLOCKCHAIN DEVELOPER</span> from Slovenia with almost 2 years of experience in blockchain development, enthusiastic about blockchain and web3 industry, looking forward to learn something new every day and contribute to the industry!</Text>
+            <Text fontSize='3xl'>apasionado<span className="name"> desarrollador FULL-STACK </span> de México con 1 año de experiencia en proyectos Front-End y Back-End. Estoy siempre emocionado por aprender algo nuevo cada día y contribuir a la industria de programación.</Text>
           </div>
 
           <div className="icons">
-            <a href="https://github.com/0xTijan" target="_blank">
+            <a href="https://github.com/jossvagui" target="_blank">
               <AiFillGithub className="icon" />
             </a>
-            <a href="https://twitter.com/0xTijan" target="_blank">
-              <AiFillTwitterCircle className="icon" />
-            </a>
-            <a href="https://t.me/TijanWeb3" target="_blank">
-              <BsTelegram className="icon" />
-            </a>
+            <a href="https://www.linkedin.com/in/josuevagui/" target="_blank">
+              <AiFillLinkedin className="icon" />
+            </a>            
           </div>
 
-          <a href="mailto:contactme@tijan.dev">
+          <a href="mailto:joss.vagui@gmail.com">
             <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
               Contact Me
             </Button>
           </a>
         </div>
         <div className="about-avatar">
-          <img src={avatar} className="avatar" alt="Tijan Bitmoji" />
+          <img src={avatar} className="avatar" alt="Perfil" />
         </div>
       </div>
       <div className="icon-wrapper">

@@ -24,6 +24,7 @@ import Socket from "./../../images/socket.svg";
 import NodeJS from "./../../images/nodej-js.png";
 import MongoDB from "./../../images/mongodb-logo.png";
 import Firebase from "./../../images/firebase-logo.png";
+import Github from "./../../images/github.png";
 
 export type Skill = {
   name: string;
@@ -102,5 +103,10 @@ export const skills: Skill[] = [
     name: "TypeScript",
     url: "https://www.typescriptlang.org/",
     img: TS
+  },
+  {
+    name: "GitHub",
+    url: "https://www.github.com/",
+    img: Github
   }
 ]

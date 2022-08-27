@@ -45,7 +45,7 @@ export const projects: Project[] = [
   },
   {
     name: "Restaurant App",
-    description: "Desarrollo para un restaurante de comida italiana en donde se despliega el menu y los servicios que se ofrecen.",
+    description: "Creación de una aplicación para un restaurante de comida italiana en donde se despliega el menu y los servicios que se ofrecen.",
     image: Restaurant,
     url: "https://proyecto4-restaurant3.netlify.app/",
     github: "https://github.com/jossvagui/Proyecto4-RestaurantApp",

@@ -22,6 +22,8 @@ import Graph from "./../../images/thegraph-logo.png";
 import Arweave from "./../../images/arweave.png";
 import Socket from "./../../images/socket.svg";
 import NodeJS from "./../../images/nodej-js.png";
+import MongoDB from "./../../images/mongodb-logo.png";
+import Firebase from "./../../images/firebase-logo.png";
 
 export type Skill = {
   name: string;
@@ -42,96 +44,24 @@ export const getSkill = (names: string[]) => {
 }
 
 export const skills: Skill[] = [
-  {
-    name: "Solidity",
-    url: "https://soliditylang.org/",
-    img: Solidity
-  },
-  {
-    name: "Hardhat",
-    url: "https://hardhat.org/",
-    img: Hardhat
-  },
-  {
-    name: "Waffle",
-    url: "https://getwaffle.io/",
-    img: Waffle
-  },
-  {
-    name: "Truffle",
-    url: "https://trufflesuite.com/",
-    img: Truffle
-  },
-  {
-    name: "Ganache",
-    url: "https://trufflesuite.com/ganache/",
-    img: Ganache
-  },
-  {
-    name: "Chainlink",
-    url: "https://chain.link/",
-    img: Chainlink
-  },
+  
   {
     name: "JavaScript",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     img: JS
   },
   {
-    name: "TypeScript",
-    url: "https://www.typescriptlang.org/",
-    img: TS
-  },
-  {
-    name: "NodeJS",
-    url: "https://nodejs.org/en/",
-    img: NodeJS
-  },
-  {
-    name: "Socket.io",
-    url: "https://socket.io/",
-    img: Socket
-  },
-  {
     name: "React",
     url: "https://reactjs.org/",
     img: React
   },
+
   {
-    name: "NEXT.js",
-    url: "https://nextjs.org/",
-    img: Next
-  },
-  {
-    name: "Moralis",
-    url: "https://moralis.io/",
-    img: Moralis
-  },
-  {
-    name: "EthersJS",
-    url: "https://docs.ethers.io/v5/",
-    img: Ethers
-  },
-  {
-    name: "web3js",
-    url: "https://web3js.readthedocs.io/en/v1.7.4/",
-    img: Web3
-  },
-  {
-    name: "The Graph",
-    url: "https://thegraph.com/en/",
-    img: Graph
-  },
-  {
-    name: "Arweave",
-    url: "https://www.arweave.org/",
-    img: Arweave
-  },
-  {
-    name: "IPFS",
-    url: "https://ipfs.io/",
-    img: IPFS
-  },
+    name: "NodeJS",
+    url: "https://nodejs.org/en/",
+    img: NodeJS
+  },  
+  
   {
     name: "HTML",
     url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -142,11 +72,7 @@ export const skills: Skill[] = [
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     img: CSS
   },
-  {
-    name: "React Native",
-    url: "https://reactnative.dev/",
-    img: Native
-  },
+  
   {
     name: "NPM",
     url: "https://www.npmjs.com/",
@@ -162,4 +88,19 @@ export const skills: Skill[] = [
     url: "https://git-scm.com/",
     img: Git
   },
+  {
+    name: "MongoDB",
+    url: "https://www.mongodb.com/",
+    img: MongoDB
+  },
+  {
+    name: "Firebase",
+    url: "https://firebase.google.com/",
+    img: Firebase
+  },
+  {
+    name: "TypeScript",
+    url: "https://www.typescriptlang.org/",
+    img: TS
+  }
 ]

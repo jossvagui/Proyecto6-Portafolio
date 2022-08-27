@@ -68,7 +68,7 @@ const About = () => {
 
           <a href="mailto:joss.vagui@gmail.com">
             <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
-              Contact Me
+              Contáctame
             </Button>
           </a>
         </div>

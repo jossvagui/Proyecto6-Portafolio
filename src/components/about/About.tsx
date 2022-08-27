@@ -54,7 +54,7 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>apasionado<span className="name"> desarrollador FULL-STACK </span> de México con 1 año de experiencia en proyectos Front-End y Back-End. Estoy siempre emocionado por aprender algo nuevo cada día y contribuir a la industria de programación.</Text>
+            <Text fontSize='3xl'>apasionado<span className="name"> desarrollador FULL-STACK </span> de México con experiencia en proyectos Front-End y Back-End. Estoy siempre emocionado por aprender algo nuevo cada día y contribuir a la industria de programación.</Text>
           </div>
 
           <div className="icons">

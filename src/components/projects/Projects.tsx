@@ -9,8 +9,8 @@ import "./Projects.css";
 const Projects = () => {
   return(
     <div className="bg-projects">
-      <p className="heading">Projects</p>
-      <p className="text">Take a look at my blockchain projects:</p>
+      <p className="heading">Proyectos</p>
+      <p className="text">Algunos de mis proyectos:</p>
       <div className="projects-grid">
         {projects.map((project: Project) => {
           return(
@@ -55,12 +55,11 @@ const Projects = () => {
         })}
       </div>
       <div>
-        <p className="git-hub-text">You can find my other projects on my GitHub</p>
-        <a href="https://github.com/0xTijan?tab=repositories" target="_blank">
+        <p className="git-hub-text">Puedes ver todos mis repositorios en GitHub</p>
+        <a href="https://github.com/jossvagui?tab=repositories" target="_blank">
           <button className="git-hub-btn">GitHub</button>
         </a>
-      </div>
-      <p className="text soon"> . . . more coming soon!</p>
+      </div>      
     </div>
   )
 }
